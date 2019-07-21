@@ -12,3 +12,5 @@ $lem=$this->getContainer()->get('light_entity_manager');
 ```
 
 And then use as ordinary EntityManager.
+
+Note: I've tested it only with my project and it's fully replaces original Doctrine's EntityManager on heavy cron tasks. May be some function calls used in yours are abscent. Try it on your own risk and make data backups first.
