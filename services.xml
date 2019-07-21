@@ -1,0 +1,4 @@
+<service id="light_entity_manager" class="App\Bundle\LightEntityManager" public="true">
+    <argument type="service" id="doctrine.orm.entity_manager" />
+    <argument type="service" id="service_container" />
+</service>
